@@ -11,7 +11,6 @@ function Production() {
     const { theme } = useContext(ThemeContext);
     return (
         <div className="about" id="about" style={{backgroundColor: theme.secondary}}>
-                    <h1>PRODUCTION</h1>
             <div className="line-styling">
               <div className="style-circle" style={{backgroundColor: "rgb(57 171 245)"}}></div>
               <div className="style-circle" style={{backgroundColor: "rgb(57 171 245)"}}></div>
@@ -20,7 +19,7 @@ function Production() {
             <div className="about-body">
                 <div className="about-description">
                     <h2 style={{color:"rgb(62 163 229)"}}>{aboutData.title}</h2>
-                    <p style={{color:theme.tertiary80}}>{aboutData.description1}<br/><br/>{aboutData.description2}</p>
+                    <p style={{color:theme.tertiary80}}>{aboutData.body}<br/></p>
                 </div>
                 <div className="about-img">
                     <img 
