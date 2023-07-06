@@ -13,9 +13,8 @@ function Main() {
 
             <Navbar />        
             <Landing />
-            <Production />
-            {/* <About /> */}
-            {/* <Education />
+            <About /> 
+            <Education />
             <Skills />
             <Experience />
             <Projects />
@@ -24,7 +23,7 @@ function Main() {
             <Testimonials />
             <Blog />
             <Contacts />
-            <Footer />  */}
+            <Footer /> 
         </div>
     )
 }
